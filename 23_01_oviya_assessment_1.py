@@ -7,7 +7,7 @@ For example expected output should be like reversed_output = "nohtyp"'''
 def reverse_op(g_input):
     return g_input[::-1]
 
-get_input = str(input("Enter the text: "))
+get_input = input("Enter the text: ")
 output = reverse_op(get_input)
 print("The reversed string is: ", output)
 
