@@ -111,7 +111,8 @@ def func(product_catalog):
     emp_list = []
     for product, attributes in product_catalog.items():
         price = attributes.get('price')
-        if price < 50:
+        availability = attributes.get('availability')
+        if price < 50 and availability:
             emp_list.append(product)
     return emp_list
 
