@@ -1,9 +1,7 @@
 # ASSESSMENT 13
 
 
-'''1. with the given input data, create new comn C	
-in the dataframe by adding both parallel values 	
-of A and B.		
+'''1. with the given input data, create new column C in the dataframe by adding both parallel values of A and B.		
 	
 Output:	
    A  B   C	
